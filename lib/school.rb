@@ -11,8 +11,8 @@ class School    #referred to as the model
   end   
   
   def add_student(name, grade)
-    if !roster[grade] = nil 
-    << "#{name}"
+    if roster[grade] != nil 
+       @roster << "#{name}"
       
   
 
