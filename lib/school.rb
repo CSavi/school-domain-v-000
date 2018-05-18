@@ -6,6 +6,10 @@ class School    #referred to as the model
     @roster = {}  # hash will contain keys of grade levels; value of ea key will be student name array
   end   
   
+  def roster 
+    @roster 
+  end   
+  
   def add_student(name, grade)
     if !roster[grade] = nil 
     << "#{name}"
