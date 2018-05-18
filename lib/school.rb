@@ -22,7 +22,7 @@ class School    #referred to as the model
     @roster[grade]
   end   
   
-  def sort 
+  def sort(name) 
     @roster[grade][name.sort]
   end   
   
