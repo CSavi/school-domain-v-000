@@ -14,7 +14,8 @@ class School    #referred to as the model
     if @roster[grade] != nil 
        @roster[grade] << name
     else 
-       @roster = name 
+       @roster[grade] = name 
+    end    
   end      
       
   
