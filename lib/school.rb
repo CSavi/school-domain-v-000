@@ -8,7 +8,7 @@ class School    #referred to as the model
   
   def add_student(name, grade)
     if !roster[grade] = nil 
-    end       
+    << "#{name}"
       
   
 
