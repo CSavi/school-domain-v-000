@@ -17,7 +17,13 @@ class School    #referred to as the model
        @roster[grade] = [name] 
     end    
   end      
-      
+  
+  def grade(grade)
+    if grade 
+  end   
+  
+  def sort 
+  end   
   
 
 end   
