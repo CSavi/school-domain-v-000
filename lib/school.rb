@@ -3,9 +3,9 @@ class School    #referred to as the model
 
   attr_accessor :name, :roster
 
-  def initialize(name)
+  def initialize(name, roster)
     @name = name 
-    @roster = {}
+    @roster = {}  # hash will contain keys of grade levels; value of ea key will be student name array
   end   
   
   def add_student(name, grade)
