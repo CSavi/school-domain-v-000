@@ -23,8 +23,8 @@ class School    #referred to as the model
   end   
   
   def sort
-    @roster.each do |name|
-      name.sort
+    @roster.each do |key, value|
+      value.sort
     end   
   end   
   
