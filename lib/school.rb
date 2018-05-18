@@ -19,7 +19,7 @@ class School    #referred to as the model
   end      
   
   def grade(grade)
-    if grade 
+    
   end   
   
   def sort 
